@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: 'Your Chosen Font', sans-serif; /* Optional: Set a custom font */
+}
+
+header {
+    background-color: #333; /* Set your desired background color */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.section {
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 10px; /* Adjust spacing between sections */
+    overflow: hidden; /* Clear float */
+}
+
+.section-title {
+    background-color: #555; /* Set unique color for section title */
+    color: white;
+    padding: 10px;
+    position: relative;
+}
+
+.section-content {
+    padding: 20px;
+}
+
+/* Media Queries for Responsive Design */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Tablet View Styles */
+}
+
+@media (max-width: 767px) {
+    /* Mobile View Styles */
+}
